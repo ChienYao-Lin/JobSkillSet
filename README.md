@@ -4,17 +4,17 @@ This minor project is for increasing the effectiveness of my [previous course pr
 
 ## Requirements
 - spaCy: The main package in this project
-'''
+```
 conda install -c conda-forge spacy
-'''
+```
 - en_core_web_sm: Be used to split the raw into sentences and also be the pre-trained model in the training stage
-'''
+```
 python -m spacy download en_core_web_sm
-'''
+```
 - spacy-lookups-data: Add lexeme normalization table to avoid the [error message](https://gitanswer.com/spacy-training-a-new-parser-or-ner-using-a-model-with-no-lexeme-normalization-table-python-835138950)
-'''
+```
 conda install -c spacy-lookups-data
-'''
+```
 - entitylist.csv: The data set collected skill entities which I scrape [AngelList](https://angel.co/)'s skill report, but the page is not available now. Here is how the page looked like. ![](https://i.imgur.com/K9QCrAU.png)
 **NOTE**: numpy version should be greater than 1.20 to avoid the [bug](https://github.com/conda-forge/numpy-feedstock/issues/229) on MacOS.
 
