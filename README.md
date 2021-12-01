@@ -16,7 +16,7 @@ python -m spacy download en_core_web_sm
 conda install -c spacy-lookups-data
 ```
 - entitylist.csv: The data set collected skill entities which I scrape [AngelList](https://angel.co/)'s skill report, but the page is not available now. Here is how the page looked like. ![](https://i.imgur.com/K9QCrAU.png)
-**NOTE**: numpy version should be greater than 1.20 to avoid the [bug](https://github.com/conda-forge/numpy-feedstock/issues/229) on MacOS.
+- **NOTE**: numpy version should be greater than 1.20 to avoid the [bug](https://github.com/conda-forge/numpy-feedstock/issues/229) on MacOS.
 
 
 ## Conclusion and Future Works
