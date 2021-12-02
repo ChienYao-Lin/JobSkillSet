@@ -20,7 +20,7 @@ conda install -c spacy-lookups-data
 
 
 ## Conclusion and Future Works
-Overall, both of the two model have good performance on test data so I might try to implement them into my AWS project. However, the data set is collected for data analyst, data scientist and data engineer, which cause the model not suitable for other jobs. Hence, for those who want to use the model but for different jobs, please re-run the jupyter notebook for your job titles.
+Overall, both of the two model have good performance on test data so I might try to implement them into my AWS project. However, the data set is collected for data analyst, data scientist and data engineer, which may cause the model not suitable for other jobs. Hence, for those who want to use the model but for different jobs, please re-run the jupyter notebook for your job titles.
 
 ## Reference
 - Shrivarsheni 2020, How to Train spaCy to Autodetect New Entities (NER) [Complete Guide] - https://www.machinelearningplus.com/nlp/training-custom-ner-model-in-spacy/
