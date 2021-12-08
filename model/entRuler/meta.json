@@ -1,29 +1,33 @@
 {
   "lang":"en",
-  "name":"model",
+  "name":"pipeline",
   "version":"0.0.0",
-  "spacy_version":">=2.3.2",
+  "spacy_version":">=3.2.0,<3.3.0",
   "description":"",
   "author":"",
   "email":"",
   "url":"",
   "license":"",
-  "spacy_git_version":"bf778f59c",
+  "spacy_git_version":"0fc3dee77",
   "vectors":{
     "width":0,
     "vectors":0,
     "keys":0,
-    "name":null
-  },
-  "pipeline":[
-    "entity_ruler"
-  ],
-  "factories":{
-    "entity_ruler":"entity_ruler"
+    "name":null,
+    "mode":"default"
   },
   "labels":{
     "entity_ruler":[
       "SKILL"
     ]
-  }
+  },
+  "pipeline":[
+    "entity_ruler"
+  ],
+  "components":[
+    "entity_ruler"
+  ],
+  "disabled":[
+
+  ]
 }
