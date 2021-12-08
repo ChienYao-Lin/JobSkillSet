@@ -11,10 +11,6 @@ $ conda install -c conda-forge spacy
 ```bash
 $ python -m spacy download en_core_web_sm
 ```
-- spacy-lookups-data: Add lexeme normalization table to avoid the [error message](https://gitanswer.com/spacy-training-a-new-parser-or-ner-using-a-model-with-no-lexeme-normalization-table-python-835138950)
-```bash
-$ conda install -c spacy-lookups-data
-```
 - entitylist.csv: The data set collected skill entities which I scrape [AngelList](https://angel.co/)'s skill report, but the page is not available now. Here is how the page looked like. ![](https://i.imgur.com/K9QCrAU.png)
 - **NOTE**: numpy version should be greater than 1.20 to avoid the [bug](https://github.com/conda-forge/numpy-feedstock/issues/229) on MacOS.
 
@@ -23,7 +19,5 @@ $ conda install -c spacy-lookups-data
 Overall, both of the two model have good performance on test data so I might try to implement them into my AWS project. However, the data set is collected for data analyst, data scientist and data engineer, which may cause the model not suitable for other jobs. Hence, for those who want to use the model but for different jobs, please re-run the jupyter notebook for your job titles.
 
 ## Reference
-- Shrivarsheni 2020, How to Train spaCy to Autodetect New Entities (NER) [Complete Guide] - https://www.machinelearningplus.com/nlp/training-custom-ner-model-in-spacy/
 - spaCy, Rule-based entity recognition - https://spacy.io/usage/rule-based-matching#entityruler
-- adrianeboyd 2021, spaCy Training a new parser or NER using a model with no lexeme normalization table. - Python - https://gitanswer.com/spacy-training-a-new-parser-or-ner-using-a-model-with-no-lexeme-normalization-table-python-835138950
 - crusaderky 2021, numpy 1.20 on MacOSX: spurious RuntimeWarning: invalid value encountered in reciprocal - https://github.com/conda-forge/numpy-feedstock/issues/229
